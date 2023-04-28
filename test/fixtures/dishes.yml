@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  value: 1.5
+  portionSize: 1
+  quantity: 1
+  restaurant: one
+
+two:
+  name: MyString
+  description: MyString
+  value: 1.5
+  portionSize: 1
+  quantity: 1
+  restaurant: two

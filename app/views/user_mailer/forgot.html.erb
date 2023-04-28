@@ -1,0 +1,7 @@
+<h1>Caro, <%= @user.name %>.</h1>
+
+<p>
+   Esqueceu sua senha? Entre no link abaixo e troque!
+</p>
+
+<%= link_to "Confirme sua conta", "link_do_meu_front_end/forgot/?key=#{@user.validate_token}" %>

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_confirmed: false
+  grade: 1
+  client: one
+  deliveryman: one
+
+two:
+  is_confirmed: false
+  grade: 1
+  client: two
+  deliveryman: two

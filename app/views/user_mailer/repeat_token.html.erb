@@ -1,0 +1,7 @@
+<h1>Caro, <%= @user.name %>.</h1>
+
+<p>
+ Confirme sua conta clicando no botão abaixo
+</p>
+
+<%= link_to "Confirme sua conta", "link_do_meu_front_end/confirmate/?key=#{@user.validate_token}" %>
